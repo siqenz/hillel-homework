@@ -1,0 +1,127 @@
+@keyframes textFade {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+
+  50% {
+    color: rgba(211, 211, 211, 0);
+  }
+
+  100% {
+    color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes nameFade {
+  0% {
+    color: rgba(154, 250, 205);
+  }
+
+  25% {
+    color: rgb(160, 142, 238);
+  }
+
+  50% {
+    color: rgb(111, 0, 255);
+  }
+
+  75% {
+    color: rgb(240, 121, 121);
+  }
+
+  100% {
+    color: rgb(166, 243, 131);
+  }
+}
+
+@keyframes hellFade {
+  0% {
+    color: #000000;
+  }
+
+  25% {
+    color: #7e000f;
+  }
+
+  50% {
+    color: #b90016;
+  }
+
+  75% {
+    color: #7e000f;
+  }
+
+  100% {
+    color: #000000;
+  }
+  
+}
+
+body {
+  /* background-color: bisque; */
+  background: url(https://picsum.photos/1920/1080?grayscale);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  margin: 100px;
+  padding: 50px;
+  background-color: aliceblue;
+  opacity: 0.9;
+}
+
+h1,
+h2 {
+  margin: 0;
+  animation: nameFade 20s infinite;
+  text-shadow: 1px 1px #000000;
+  display: inline-block;
+}
+
+h1:hover {
+  font-size: 100px;
+  animation: hellFade 7s infinite;
+  animation-timing-function: ease-in-out;
+  text-shadow: none;
+}
+
+
+h2:hover {
+  font-size: 75px;
+  animation: hellFade 7s infinite;
+  animation-timing-function: ease-in-out;
+  text-shadow: none;
+}
+
+.hidden_text {
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.list {
+  font-size: 20px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.list_item {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  animation: textFade 6s infinite;
+}
+
+.list_markers {
+  margin-bottom: 10px;
+}
+
+.baby_guitar {
+  margin-left: 10px;
+}
