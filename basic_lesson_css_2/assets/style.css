@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(255, 255, 161);
+}
+
+.container{
+    width: 1200px;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(173, 182, 255);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bob_img{
+    width: 250px;
+    height: 200px;
+}
+
+.about{
+    font-size: 70px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.card{
+    display: inline-block;
+    width: 270px;
+    height: 360px;
+    margin: 10px 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+.bob_title{
+    font-weight: bold;
+    text-align: center;
+}
+
+.text{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.button{
+    display: block;
+    padding: 15px 60px;
+    width: 200px;
+    margin: 10px auto 0;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(88, 108, 255);
+    color: aliceblue;
+    
+}

@@ -88,3 +88,36 @@ header{
     background-color: rgb(205, 92, 139);
     color: rgb(20, 20, 20);
 }
+
+
+@media only screen and (max-width: 768px) {
+    .head{
+        display: block;
+        text-align: center;
+    }
+    
+    .list{
+        display: block;
+    }
+
+    .list li{
+        padding: 0 0 20px 0;
+    }
+
+    .list_item{
+        font-size: 25px;
+        gap: 20px;
+    }
+
+    .work_faster{
+        text-align: center;
+        color: rgb(238, 238, 238);
+        font-size: 80px;
+        margin-bottom: 25px;
+        margin-top: 50px;
+    }
+
+    .buttons{
+        margin-bottom: 20px;
+    }
+  }
