@@ -25,6 +25,14 @@ html{
     background-color: green;
 }
 
+#section4{
+    background-color: blue;
+}
+
+#section5{
+    background-color: purple;
+}
+
 .scroll{
     position: fixed;
     left: 10px;
@@ -55,4 +63,12 @@ a{
 
 .green:hover{
     background-color: green;
+}
+
+.blue:hover{
+    background-color: blue;
+}
+
+.purple:hover{
+    background-color: purple;
 }
