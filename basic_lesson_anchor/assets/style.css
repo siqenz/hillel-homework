@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-size: 100px;
+}
+
+#section1{
+    background-color: red;
+}
+
+#section2{
+    background-color: yellow;
+}
+
+#section3{
+    background-color: green;
+}
+
+.scroll{
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: beige;
+}
+
+.red:hover{
+    background-color: red;
+}
+
+.yellow:hover{
+    background-color: yellow;
+}
+
+.green:hover{
+    background-color: green;
+}
